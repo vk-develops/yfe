@@ -451,6 +451,7 @@ html::-webkit-scrollbar-thumb{
     .hero-section .hero .h-contents h1{
         font-size: 1.8rem;
         margin-top: 10px;
+        margin-bottom: 0px;
     }
     .hero-section .hero .h-contents p{
         font-size: 14px;
