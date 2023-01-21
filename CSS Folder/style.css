@@ -135,8 +135,8 @@ html::-webkit-scrollbar-thumb{
 /* Navigation Section On Scroll Starts Here */
 
 .navii .active{
-    background-color: rgb(51, 51, 51, .55);
-    backdrop-filter: blur(20px);
+    background-color: rgb(51, 51, 51, .55)!important;
+    backdrop-filter: blur(20px)!important;
 }
 
 /* Navigation Section On Scroll Ends Here */
@@ -165,8 +165,8 @@ html::-webkit-scrollbar-thumb{
         width: 250px;
         top: 0;
         right: -250px;
-        background-color: rgb(51, 51, 51, .55);
-        backdrop-filter: blur(20px);
+        background-color: rgb(51, 51, 51, .55)!important;
+        backdrop-filter: blur(20px)!important;
         z-index: 2;
     }
     .nav-links ul{
@@ -263,6 +263,7 @@ html::-webkit-scrollbar-thumb{
 
 .hero-section{
     height: 100vh;
+    padding: 0% 5%;
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7))
     , url("https://wallpaperaccess.com/full/269158.jpg");
@@ -275,12 +276,12 @@ html::-webkit-scrollbar-thumb{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -45%);
+    transform: translate(-50%, -46%);
 }
 .hero-section .hero .rotator{
-    height: 220px;
+    height: 215px;
     position: relative;
-    width: 220px;
+    width: 215px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -311,8 +312,8 @@ html::-webkit-scrollbar-thumb{
     }
 }
 .hero-section .hero .rotator img{
-    height: 200px;
-    width: 200px;
+    height: 195px;
+    width: 195px;
     margin-top: 10px;
 }
 .hero-section .h-contents{
@@ -324,7 +325,7 @@ html::-webkit-scrollbar-thumb{
 }
 .hero-section .h-contents h1{
     padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
     font-weight: 700;
 }
 .hero-section .h-contents p{
@@ -332,7 +333,8 @@ html::-webkit-scrollbar-thumb{
     text-transform: initial;
     font-weight: 400;
     font-size: 17px;
-    color: rgb(255, 255, 255, .85);
+    color: rgb(255, 255, 255, .80);
+    margin-bottom: 15px;
 }
 .hero-section .cta-btn{
     display: flex;
@@ -362,6 +364,7 @@ html::-webkit-scrollbar-thumb{
 
 
 /* Hero Section Ends Here */
+
 /* Responsive Hero Section Starts Here */
 
 
@@ -403,7 +406,7 @@ html::-webkit-scrollbar-thumb{
         font-size: 1.3rem;
     }
 }
-@media(max-width: 540px) and (min-width: 400px){
+@media(max-width: 540px) and (min-width: 500px){
     .hero-section .hero .rotator{
         margin-bottom: 30px;
     }
@@ -421,59 +424,65 @@ html::-webkit-scrollbar-thumb{
         font-size: 1rem;
     }
 }
-@media(max-width: 391px) and (min-width: 375px){
+@media(max-width: 441px) and (min-width: 377px){
     .hero-section .hero .rotator{
         margin-bottom: 30px;
     }
     .hero-section .hero .h-contents h1{
         margin-bottom: 20px;
-        font-size: 2.3rem;
+        font-size: 2.1rem;
         margin-top: 30px;
     }
     .hero-section .hero .h-contents p{
-        margin-bottom: 20px;
-        font-size: 1rem;
+        margin-bottom: 30px;
+        font-size: 15px;
     }
 }
 @media(max-width: 376px){
     .hero-section .hero .rotator{
-        margin-bottom: 15px;
         margin-top: 15px;
+        height: 185px;
+        width: 185px;
+    }
+    .hero-section .hero .rotator img{
+        height: 165px;
+        width: 165px;
     }
     .hero-section .hero .h-contents h1{
-        font-size: 2rem;
+        font-size: 1.8rem;
+        margin-bottom: 15px;
+        margin-top: 10px;
     }
     .hero-section .hero .h-contents p{
-        font-size: 15px;
-        margin-top: -5px;
+        font-size: 14px;
+        margin-bottom: 15px;
     }
     .hero-section .hero .cta-btn{
-        margin-top: 0px;
+        margin-top: 10px;
     }
 }
-@media(max-width: 320px){
-    .navigation .nav-brands .nav-logo h4{
-        font-size: 1rem;
-    }
-    .navigation .nav-brands .nav-logo h4 span{
-        font-size: 0.8rem;
-    }
-    .hero-section .hero .rotator{
-        transform: scale(0.8);
-    }
+@media(max-width: 361px){
     .hero-section .hero .h-contents h1{
-        font-size: 1.6rem;
+        margin-bottom: 25px;
+    }
+}
+@media(max-width: 281px){
+    .hero-section .hero .h-contents h1{
+        margin-bottom: 15px;
+        font-size: 1.7rem;
     }
     .hero-section .hero .h-contents p{
-        font-size: 0.7rem;
+        font-size: 13px;
     }
     .hero-section .hero .cta-btn a{
-        letter-spacing: 2px;
         padding: 15px 25px;
+        letter-spacing: 2px;
         font-size: 15px;
+        font-weight: 500;
     }
 }
 /* Responsive Hero Section Ends Here */
+
 
 /* About Section Starts Here */
 
