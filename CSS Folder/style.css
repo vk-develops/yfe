@@ -167,7 +167,7 @@ html::-webkit-scrollbar-thumb{
         top: 0;
         right: -250px;
         background-color: rgb(51, 51, 51, .55)!important;
-        backdrop-filter: blur(20px) contrast(.6)!important;
+        backdrop-filter: blur(20px)!important;
         --webkit-backdrop-filter: blur(20px) contrast(.6);
         z-index: 2;
     }
